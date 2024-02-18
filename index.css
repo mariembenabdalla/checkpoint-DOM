@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  width: 241px;
+  height: 223px;
+  margin-top: 6px;
+}
+header img {
+  margin-left: -42%;
+}
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: #e796c40d;
+}
+header .panier {
+  display: flex;
+  justify-content: space-around;
+  align-items: centers;
+  width: 97px;
+}
+header .panier p {
+  font-size: 14px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px -3px;
+  height: 70px;
+  box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.233);
+  background-color: #f2f2f2;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 900px;
+  box-sizing: border-box;
+  box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.15);
+  height: 336px;
+  margin: 6% 8%;
+  padding: -28% -15%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.items .item {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2%;
+  align-items: center;
+}
+.items .border {
+  color: #343738;
+  font-size: 16px;
+  padding: 10px 15px;
+  background-color: hsl(0, 0%, 90%);
+  font-family: "Roboto", Arial, sans-serif;
+  position: relative;
+  align-items: center;
+  margin: 6% 0%;
+  display: flex;
+  flex-direction: column;
+  margin-top: -26px;
+}
+.Totale-Price {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 270px;
+  box-sizing: border-box;
+  box-shadow: 0 -2px 10px 0 rgba(0, 0, 0, 0.15);
+  height: 148px;
+  margin: -23% 71%;
+  padding: -28% -15%;
+  background-color: #ffffff;
+  align-content: space-around;
+  flex-wrap: nowrap;
+  align-items: center;
+  border-radius: 23px;
+}
+.Totale-Price h2 {
+  font-size: 18px;
+  margin-right: -33px;
+}
+.Totale-Price .tag {
+  margin: -4px 1px;
+  margin-top: -122px;
+  margin-left: -108px;
+}
+.items .item .plus {
+  background-color: rgb(129 68 150 / 48%);
+  border-radius: 6px;
+  width: 55px;
+  height: 34px;
+}
+.items .item .min {
+  background-color: rgb(252 194 114);
+  border-radius: 6px;
+  width: 55px;
+  height: 34px;
+}
+.items .item .delete {
+  background-color: rgb(228 11 11 / 56%);
+  border-radius: 6px;
+  width: 55px;
+  height: 34px;
+}
+.active {
+  color: red;
+}
