@@ -31,15 +31,13 @@ for (let btn of btn_min) {
 for (let btn of btn_delete) {
   btn.addEventListener("click", function () {
     let parent = btn.parentElement;
+    parent.remove();
     let quantity = parent.querySelector(".quantity");
     let price = parent.querySelector(".price");
     let total = parseInt(totalprice.innerHTML);
     console.log(total);
-    if (total > 0) {
-      totalprice.innerHTML =
-        total - parseInt(quantity.innerHTML) * parseInt(price.innerHTML);
-    }
-    quantity.innerHTML = 0;
+    totalprice.innerHTML =
+      total - parseInt(quantity.innerHTML) * parseInt(price.innerHTML);
   });
 }
 icon.forEach(function (icon) {
